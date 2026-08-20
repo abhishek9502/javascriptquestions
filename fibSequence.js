@@ -1,0 +1,8 @@
+function fibonacciSeq(n){
+    let a=0,b=1
+    while (a<=n){
+        console.log(a);
+        [a,b]=[b,a+b];
+    }
+}
+fibonacciSeq(10);
